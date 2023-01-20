@@ -19,17 +19,15 @@
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-logo {
+    height: 151px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
-}
-
-.header-link {
-    width: 120px;
-    height: 151px;
 }
 
 .nav-header {
@@ -57,12 +55,17 @@
 .section-image {
     margin-top: 30px;
     margin-bottom: 30px;
+    display: flex;
+}
+
+.image-company {
+    width: 100%;
 }
 
 .section-about {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -117,10 +120,7 @@
 
 .address__tel {
     padding-top: 30px;
-}
-
-.address__mail {
-    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer {
@@ -133,12 +133,9 @@
 }
 
 .footer-logo {
-    padding-left: 40px;
-}
-
-.footer-logo__link {
-    width: 254px;
     height: 120px;
+    padding-left: 40px;
+    display: flex;
 }
 
 .footer-tel {
