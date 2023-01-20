@@ -36,12 +36,9 @@
 }
 
 .nav-list {
-    max-width: 811px;
-    width: 100%;
     min-height: 29px;
     margin-top: 79px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -73,16 +70,21 @@
     width: 100%;
     min-height: 500px;
     height: auto;
+    padding: 50px 95px 0 40px;
     background: #F0F0F0;
 }
 
-.address {
+.sidebar {
     max-width: 350px;
     width: 100%;
     min-height: 500px;
     height: auto;
-    font-style: normal;
+    padding: 50px 24px 0 40px;
     background: #F0F0F0;
+}
+
+.address {
+    font-style: normal;
 }
 
 .main__header,
@@ -90,7 +92,7 @@
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
-    padding: 50px 0 25px 40px;
+    padding-bottom: 25px;
     color: #4581B7;
 }
 
@@ -98,7 +100,6 @@
 .address__text {
     font-size: 16px;
     line-height: 27px;
-    padding-left: 40px;
     color: #808080;
 }
 
@@ -114,7 +115,6 @@
 
 .address__tel__link,
 .address__mail__link {
-    padding-left: 40px;
     color: #808080;
 }
 
